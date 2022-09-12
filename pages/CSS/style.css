@@ -159,6 +159,12 @@ main{
     justify-content: center;
 }
 
+.cabecera__titulo{
+    background-image: radial-gradient(yellow, white, violet);
+}
+
+
+
 @media screen and (max-width: 768px) {
     header {
         background-color: white;
