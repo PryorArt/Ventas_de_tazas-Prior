@@ -5,14 +5,14 @@
     bottom: 40px;
     background-color: blueviolet;
     padding: 10px;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
-.cabecera__links li{
+.cabecera__links li {
     display: inline-block;
     margin-left: 0px;
     padding: 05px;
@@ -24,31 +24,19 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 
-}    
-    
-
-body {
-    background-color: black;
-    
 }
 
 
-
-
-
-h1 {
-    color: blueviolet;
-    text-align: center;
-    padding-bottom: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100x;
-    
+body,
+html {
+    background-color: black;
 }
 
 a {
     color: white;
-    
+
 }
+
 h2 {
     color: blueviolet;
     text-align: center;
@@ -64,53 +52,55 @@ h2 {
     padding-top: 10px;
 }
 
-.tabla{
+.tabla {
     color: aliceblue;
-    
+
 }
 
-.label{
+.label {
     color: blueviolet;
 }
 
-p{
+p {
     color: blueviolet;
     font-size: 20px;
 }
 
 
 
-.Galeria{
+.Galeria {
     font-size: 50px;
 }
-.nosotros{
+
+.nosotros {
     font-size: 50px;
 }
-.legend{
+
+.legend {
     color: blueviolet;
     font-size: 30px;
 }
 
-div{
+div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
 }
 
 
-p{
+p {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
 }
 
-.contenedor{
+.contenedor {
     width: 98%;
     max-width: 1200px;
     margin: auto;
@@ -119,17 +109,16 @@ p{
     gap: 20px;
 }
 
-.textos{
+.textos {
     display: flex;
     justify-content: space-between;
     color: blueviolet;
     font-size: 40px
 }
 
-.contenedor-mates3D{
-    width: 100%;
-}
-.card{
+
+
+.card {
     border-radius: 18px;
     overflow: hidden;
     background-position: center;
@@ -137,11 +126,11 @@ p{
     font-weight: bold;
 }
 
-.galeria{
+.galeria {
     width: 100%;
 }
 
-.fotos{
+.fotos {
     border-radius: 10px;
     min-height: 200px;
     padding: 20px;
@@ -152,26 +141,32 @@ p{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: repeat(4 100px);
-    }
+}
 
-main{
+main {
     display: flex;
     justify-content: center;
 }
 
-.cabecera__titulo{
-    background-image: radial-gradient(yellow, white, violet);
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: ;
+
+
 }
 
 
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 768px) {
     header {
         background-color: white;
     }
-    div{
+
+    div {
         display: grid;
         grid-template-columns: min-content;
     }
-    
+
 }
